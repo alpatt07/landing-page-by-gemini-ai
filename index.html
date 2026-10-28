@@ -1,101 +1,134 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NexusAI - Masa Depan Produktivitas Anda</title>
     <!-- Menghubungkan file HTML dengan file CSS terpisah -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <!-- Google Fonts untuk tipografi modern -->
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
     <!-- FontAwesome untuk ikon -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-</head>
-<body>
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
     <!-- BAGIAN NAVBAR -->
     <header class="navbar">
-        <div class="container nav-container">
-            <a href="#" class="logo"><i class="fa-solid fa-cube"></i> NexusAI</a>
-            <nav class="nav-links">
-                <a href="#features">Fitur</a>
-                <a href="#about">Tentang</a>
-                <a href="#testimonials">Testimoni</a>
-            </nav>
-            <div class="nav-cta">
-                <a href="#contact" class="btn btn-secondary">Masuk</a>
-                <a href="#contact" class="btn btn-primary">Mulai Gratis</a>
-            </div>
+      <div class="container nav-container">
+        <a href="#" class="logo"><i class="fa-solid fa-cube"></i> NexusAI</a>
+        <nav class="nav-links">
+          <a href="#features">Fitur</a>
+          <a href="#about">Tentang</a>
+          <a href="#testimonials">Testimoni</a>
+        </nav>
+        <div class="nav-cta">
+          <a href="#contact" class="btn btn-secondary">Masuk</a>
+          <a href="#contact" class="btn btn-primary">Mulai Gratis</a>
         </div>
+      </div>
     </header>
 
     <!-- BAGIAN HERO (UTAMA) -->
     <section class="hero">
-        <div class="container hero-container">
-            <div class="hero-content">
-                <span class="badge"><i class="fa-solid fa-sparkles"></i> Teknologi AI Generasi Terbaru</span>
-                <h1>Revolusi Cara Anda Bekerja dengan Kecerdasan Buatan</h1>
-                <p>Tingkatkan efisiensi kerja hingga 99% menggunakan otomatisasi cerdas yang dirancang khusus untuk profesional modern dan tim kreatif.</p>
-                <div class="hero-buttons">
-                    <a href="#contact" class="btn btn-primary btn-lg">Coba Gratis 14 Hari <i class="fa-solid fa-arrow-right"></i></a>
-                    <a href="#features" class="btn btn-outline btn-lg">Pelajari Dulu</a>
-                </div>
-            </div>
-            <div class="hero-image">
-                <div class="card-glass-mockup">
-                    <div class="mockup-header">
-                        <span class="dot red"></span>
-                        <span class="dot yellow"></span>
-                        <span class="dot green"></span>
-                    </div>
-                    <div class="mockup-body">
-                        <div class="code-line"><span>// NexusAI Engine v2.4</span></div>
-                        <div class="code-line"><span>const</span> workflow = <span>"Automated"</span>;</div>
-                        <div class="code-line"><span>status</span>: <span class="success">Ready to boost productivity!</span> 🚀</div>
-                    </div>
-                </div>
-            </div>
+      <div class="container hero-container">
+        <div class="hero-content">
+          <span class="badge"
+            ><i class="fa-solid fa-sparkles"></i> Teknologi AI Generasi
+            Terbaru</span
+          >
+          <h1>Revolusi Cara Anda Bekerja dengan Kecerdasan Buatan</h1>
+          <p>
+            Tingkatkan efisiensi kerja hingga 99% menggunakan otomatisasi cerdas
+            yang dirancang khusus untuk profesional modern dan tim kreatif.
+          </p>
+          <div class="hero-buttons">
+            <a href="#contact" class="btn btn-primary btn-lg"
+              >Coba Gratis 14 Hari <i class="fa-solid fa-arrow-right"></i
+            ></a>
+            <a href="#features" class="btn btn-outline btn-lg">Pelajari Dulu</a>
+          </div>
         </div>
+        <div class="hero-image">
+          <div class="card-glass-mockup">
+            <div class="mockup-header">
+              <span class="dot red"></span>
+              <span class="dot yellow"></span>
+              <span class="dot green"></span>
+            </div>
+            <div class="mockup-body">
+              <div class="code-line"><span>// NexusAI Engine v2.4</span></div>
+              <div class="code-line">
+                <span>const</span> workflow = <span>"Automated"</span>;
+              </div>
+              <div class="code-line">
+                <span>status</span>:
+                <span class="success">Ready to boost productivity!</span> 🚀
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- BAGIAN FITUR UNGGULAN -->
     <section id="features" class="features">
-        <div class="container">
-            <div class="section-title">
-                <h2>Fitur Unggulan</h2>
-                <p>Dirancang untuk memberikan kemudahan, kecepatan, dan hasil maksimal.</p>
-            </div>
-            <div class="feature-grid">
-                <div class="feature-card">
-                    <div class="icon-box"><i class="fa-solid fa-bolt"></i></div>
-                    <h3>Super Cepat</h3>
-                    <p>Pemrosesan data secara *real-time* tanpa jeda waktu tunggu yang menyebalkan.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="icon-box"><i class="fa-solid fa-shield-halved"></i></div>
-                    <h3>Keamanan Tingkat Tinggi</h3>
-                    <p>Enkripsi end-to-end melindungi seluruh data pribadi dan rahasia perusahaan Anda.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="icon-box"><i class="fa-solid fa-chart-line"></i></div>
-                    <h3>Analitik Akurat</h3>
-                    <p>Laporan performa mendalam untuk membantu Anda mengambil keputusan bisnis tepat.</p>
-                </div>
-            </div>
+      <div class="container">
+        <div class="section-title">
+          <h2>Fitur Unggulan</h2>
+          <p>
+            Dirancang untuk memberikan kemudahan, kecepatan, dan hasil maksimal.
+          </p>
         </div>
+        <div class="feature-grid">
+          <div class="feature-card">
+            <div class="icon-box"><i class="fa-solid fa-bolt"></i></div>
+            <h3>Super Cepat</h3>
+            <p>
+              Pemrosesan data secara *real-time* tanpa jeda waktu tunggu yang
+              menyebalkan.
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="icon-box">
+              <i class="fa-solid fa-shield-halved"></i>
+            </div>
+            <h3>Keamanan Tingkat Tinggi</h3>
+            <p>
+              Enkripsi end-to-end melindungi seluruh data pribadi dan rahasia
+              perusahaan Anda.
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="icon-box"><i class="fa-solid fa-chart-line"></i></div>
+            <h3>Analitik Akurat</h3>
+            <p>
+              Laporan performa mendalam untuk membantu Anda mengambil keputusan
+              bisnis tepat.
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- BAGIAN FOOTER -->
     <footer class="footer">
-        <div class="container footer-container">
-            <p>&copy; 2026 NexusAI. Dibuat dengan penuh semangat oleh Developer pemula berbakat.</p>
-            <div class="social-links">
-                <a href="#"><i class="fa-brands fa-github"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="#"><i class="fa-brands fa-twitter"></i></a>
-            </div>
+      <div class="container footer-container">
+        <p>
+          &copy; 2026 NexusAI. Dibuat dengan penuh semangat oleh Developer
+          pemula berbakat.
+        </p>
+        <div class="social-links">
+          <a href="#"><i class="fa-brands fa-github"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
         </div>
+      </div>
     </footer>
-
-</body>
+  </body>
 </html>
